@@ -5,3 +5,9 @@ def hello():
     print('Hello', 'Hello', 'Hello', sep= 'ABC' )
 
 hello()
+
+def multipleFive(number):
+    return number * 5
+
+newNumber = multipleFive(10)
+print(newNumber)
