@@ -9,5 +9,7 @@ hello()
 def multipleFive(number):
     return number * 5
 
+print(multipleFive(20))
+
 newNumber = multipleFive(10)
 print(newNumber)
